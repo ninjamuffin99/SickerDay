@@ -92,6 +92,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
 		
@@ -101,6 +105,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		#if flash
 		
+		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
+		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
 		className.set ("assets/images/Bathroom_V1.png", __ASSET__assets_images_bathroom_v1_png);
 		type.set ("assets/images/Bathroom_V1.png", AssetType.IMAGE);
 		className.set ("assets/images/Bed_V1.png", __ASSET__assets_images_bed_v1_png);
@@ -109,6 +115,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/DeskAnim_V1.png", AssetType.IMAGE);
 		className.set ("assets/images/houseBW.png", __ASSET__assets_images_housebw_png);
 		type.set ("assets/images/houseBW.png", AssetType.IMAGE);
+		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
+		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		className.set ("assets/images/lightswitch_V1.png", __ASSET__assets_images_lightswitch_v1_png);
 		type.set ("assets/images/lightswitch_V1.png", AssetType.IMAGE);
 		className.set ("assets/images/Oven_V1.png", __ASSET__assets_images_oven_v1_png);
@@ -125,6 +133,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/music/IAMRF.mp3", AssetType.MUSIC);
 		className.set ("assets/music/IAMRF.ogg", __ASSET__assets_music_iamrf_ogg);
 		type.set ("assets/music/IAMRF.ogg", AssetType.MUSIC);
+		className.set ("assets/music/music-goes-here.txt", __ASSET__assets_music_music_goes_here_txt);
+		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
 		className.set ("assets/sounds/hotsizzling.mp3", __ASSET__assets_sounds_hotsizzling_mp3);
 		type.set ("assets/sounds/hotsizzling.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/hotsizzling.ogg", __ASSET__assets_sounds_hotsizzling_ogg);
@@ -145,6 +155,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/sink.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/sink.ogg", __ASSET__assets_sounds_sink_ogg);
 		type.set ("assets/sounds/sink.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/sounds-go-here.txt", __ASSET__assets_sounds_sounds_go_here_txt);
+		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
 		className.set ("assets/sounds/switchoff.mp3", __ASSET__assets_sounds_switchoff_mp3);
 		type.set ("assets/sounds/switchoff.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/switchoff.ogg", __ASSET__assets_sounds_switchoff_ogg);
@@ -196,6 +208,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#elseif html5
 		
 		var id;
+		id = "assets/data/data-goes-here.txt";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/images/Bathroom_V1.png";
 		path.set (id, id);
 		
@@ -212,6 +228,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "assets/images/images-go-here.txt";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/images/lightswitch_V1.png";
 		path.set (id, id);
 		
@@ -244,6 +264,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.MUSIC);
+		id = "assets/music/music-goes-here.txt";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/sounds/hotsizzling.mp3";
 		path.set (id, id);
 		
@@ -284,6 +308,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/sounds-go-here.txt";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/sounds/switchoff.mp3";
 		path.set (id, id);
 		
@@ -394,6 +422,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		var useManifest = false;
 		
+		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
+		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		
 		className.set ("assets/images/Bathroom_V1.png", __ASSET__assets_images_bathroom_v1_png);
 		type.set ("assets/images/Bathroom_V1.png", AssetType.IMAGE);
 		
@@ -405,6 +436,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/images/houseBW.png", __ASSET__assets_images_housebw_png);
 		type.set ("assets/images/houseBW.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
+		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		
 		className.set ("assets/images/lightswitch_V1.png", __ASSET__assets_images_lightswitch_v1_png);
 		type.set ("assets/images/lightswitch_V1.png", AssetType.IMAGE);
@@ -429,6 +463,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/music/IAMRF.ogg", __ASSET__assets_music_iamrf_ogg);
 		type.set ("assets/music/IAMRF.ogg", AssetType.MUSIC);
+		
+		className.set ("assets/music/music-goes-here.txt", __ASSET__assets_music_music_goes_here_txt);
+		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
 		
 		className.set ("assets/sounds/hotsizzling.mp3", __ASSET__assets_sounds_hotsizzling_mp3);
 		type.set ("assets/sounds/hotsizzling.mp3", AssetType.MUSIC);
@@ -459,6 +496,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/sounds/sink.ogg", __ASSET__assets_sounds_sink_ogg);
 		type.set ("assets/sounds/sink.ogg", AssetType.SOUND);
+		
+		className.set ("assets/sounds/sounds-go-here.txt", __ASSET__assets_sounds_sounds_go_here_txt);
+		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
 		
 		className.set ("assets/sounds/switchoff.mp3", __ASSET__assets_sounds_switchoff_mp3);
 		type.set ("assets/sounds/switchoff.mp3", AssetType.MUSIC);
@@ -1173,10 +1213,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if !display
 #if flash
 
+@:keep @:bind #if display private #end class __ASSET__assets_data_data_goes_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_bathroom_v1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_bed_v1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_deskanim_v1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_housebw_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_images_go_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_lightswitch_v1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_oven_v1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_scwal_v3_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -1185,6 +1227,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_images_window_v1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_music_iamrf_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_iamrf_ogg extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_music_music_goes_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hotsizzling_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hotsizzling_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_mouse_mp3 extends flash.media.Sound { }
@@ -1195,6 +1238,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_shower_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_sink_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_sink_ogg extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_switchoff_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_switchoff_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_switchon_mp3 extends flash.media.Sound { }
@@ -1263,6 +1307,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
 @:keep #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends lime.text.Font { public function new () { super (); name = "Nokia Cellphone FC Small"; } } 
 @:keep #if display private #end class __ASSET__flixel_fonts_monsterrat_ttf extends lime.text.Font { public function new () { super (); name = "Monsterrat"; } } 
 
@@ -1276,10 +1324,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (windows || mac || linux || cpp)
 
 
+@:file("assets/data/data-goes-here.txt") #if display private #end class __ASSET__assets_data_data_goes_here_txt extends lime.utils.Bytes {}
 @:image("assets/images/Bathroom_V1.png") #if display private #end class __ASSET__assets_images_bathroom_v1_png extends lime.graphics.Image {}
 @:image("assets/images/Bed_V1.png") #if display private #end class __ASSET__assets_images_bed_v1_png extends lime.graphics.Image {}
 @:image("assets/images/DeskAnim_V1.png") #if display private #end class __ASSET__assets_images_deskanim_v1_png extends lime.graphics.Image {}
 @:image("assets/images/houseBW.png") #if display private #end class __ASSET__assets_images_housebw_png extends lime.graphics.Image {}
+@:file("assets/images/images-go-here.txt") #if display private #end class __ASSET__assets_images_images_go_here_txt extends lime.utils.Bytes {}
 @:image("assets/images/lightswitch_V1.png") #if display private #end class __ASSET__assets_images_lightswitch_v1_png extends lime.graphics.Image {}
 @:image("assets/images/Oven_V1.png") #if display private #end class __ASSET__assets_images_oven_v1_png extends lime.graphics.Image {}
 @:image("assets/images/SCWal_V3.png") #if display private #end class __ASSET__assets_images_scwal_v3_png extends lime.graphics.Image {}
@@ -1288,6 +1338,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/images/window_V1.png") #if display private #end class __ASSET__assets_images_window_v1_png extends lime.graphics.Image {}
 @:file("assets/music/IAMRF.mp3") #if display private #end class __ASSET__assets_music_iamrf_mp3 extends lime.utils.Bytes {}
 @:file("assets/music/IAMRF.ogg") #if display private #end class __ASSET__assets_music_iamrf_ogg extends lime.utils.Bytes {}
+@:file("assets/music/music-goes-here.txt") #if display private #end class __ASSET__assets_music_music_goes_here_txt extends lime.utils.Bytes {}
 @:file("assets/sounds/hotsizzling.mp3") #if display private #end class __ASSET__assets_sounds_hotsizzling_mp3 extends lime.utils.Bytes {}
 @:file("assets/sounds/hotsizzling.ogg") #if display private #end class __ASSET__assets_sounds_hotsizzling_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/mouse.mp3") #if display private #end class __ASSET__assets_sounds_mouse_mp3 extends lime.utils.Bytes {}
@@ -1298,6 +1349,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/sounds/shower.ogg") #if display private #end class __ASSET__assets_sounds_shower_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/sink.mp3") #if display private #end class __ASSET__assets_sounds_sink_mp3 extends lime.utils.Bytes {}
 @:file("assets/sounds/sink.ogg") #if display private #end class __ASSET__assets_sounds_sink_ogg extends lime.utils.Bytes {}
+@:file("assets/sounds/sounds-go-here.txt") #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends lime.utils.Bytes {}
 @:file("assets/sounds/switchoff.mp3") #if display private #end class __ASSET__assets_sounds_switchoff_mp3 extends lime.utils.Bytes {}
 @:file("assets/sounds/switchoff.ogg") #if display private #end class __ASSET__assets_sounds_switchoff_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/switchon.mp3") #if display private #end class __ASSET__assets_sounds_switchon_mp3 extends lime.utils.Bytes {}
