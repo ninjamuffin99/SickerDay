@@ -13,6 +13,7 @@ import flixel.util.FlxColor;
 class Player extends FlxSprite
 {
 	public var speed:Float = 60;
+	private var interacting:Bool = false;
 	
 	public function new(?X:Float=0, ?Y:Float=0) 
 	{
