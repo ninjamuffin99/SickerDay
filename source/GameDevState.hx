@@ -19,7 +19,7 @@ class GameDevState extends FlxState
 	
 	override public function create():Void 
 	{
-		createRadio();
+		//createRadio();
 		
 		_progressBar = new FlxBar(10, 10, LEFT_TO_RIGHT, 100, 25, this, "_progress", 0, 100, true);
 		add(_progressBar);
@@ -75,6 +75,11 @@ class GameDevState extends FlxState
 				FlxG.log.add("not delayed");
 			}
 			_delayCheck = true;
+		}
+		
+		if (_progress >= 100)
+		{
+			FlxG.switchState(new PlayState());
 		}
 		
 	}
