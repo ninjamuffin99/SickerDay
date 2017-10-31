@@ -71,4 +71,78 @@ class Player extends FlxSprite
 		}
 	}
 	
+	
+	/**
+	 * 
+	 * @param	object
+	 * Which object it needs to be overlapping.
+	 * @param	_objAnimOnly
+	 * If only the object will be animated (If false then sets the player to invisible)
+	 * @param	_animationON
+	 * What animation to play when interacting
+	 * @param	_animationOFF
+	 * what animation to play when not interacting
+	 * @param	sound
+	 * @param	collision
+	 * if player collides with object
+	 * @param	objectOffset
+	 * @param	Callback
+	 * @param	CallbackFunc
+	 * @param	callbackOnly
+	 * Will not only trigger something if called back and not run code for real interactions
+	 */
+	
+	public function interact(object:FlxSprite, _objAnimOnly:Bool,  _animationON:String = "", _animationOFF:String = "", sound:String = null, collision:Bool = false, objectOffset:Float = 0, Callback:Bool = false, CallbackFunc:Void->Void = null, callbackOnly:Bool = false):Void
+	{
+		if (collision)
+		{
+			object.immovable = true;
+			FlxG.collide(this, object);
+		}
+		
+		var _btnInteract:Bool = false;
+		_btnInteract = FlxG.keys.anyJustPressed([SPACE, W, E, I, O, UP]);
+		
+		var _btnUninteract:Bool = false;
+		_btnUninteract = FlxG.keys.anyPressed([LEFT, A, J, RIGHT, D, L]);
+		
+		
+		if (FlxG.overlap(this, object))
+		{
+			
+			if (_btnInteract && !interacting)
+			{
+				
+				object.animation.play(_animationON);
+				FlxG.sound.play(sound);
+				
+				if (Callback)
+				{
+					FlxG.log.add("Interaction Callback");
+					CallbackFunc();
+				}
+				
+				//change this so it calls a special function or something like sitdown if needed
+				if (!_objAnimOnly)
+				{
+					visible = false;
+					interacting = true;
+				}
+				//FlxG.sound.playMusic("assets/music/track1.mp3");
+			}
+			
+			if (_btnUninteract && interacting)
+			{
+				object.animation.play(_animationOFF);
+				interacting = false;
+				visible = true;
+			}
+			
+			if (interacting && !_objAnimOnly)
+			{
+				this.x = object.x + objectOffset;
+			}
+		}
+		
+	}
 }
