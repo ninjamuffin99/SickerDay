@@ -14,7 +14,7 @@ import com.newgrounds.components.*;
 class CustomPreloader extends FlxBasePreloader
 {
  
-    public function new(MinDisplayTime:Float=5, ?AllowedURLs:Array<String>) 
+    public function new(MinDisplayTime:Float=0, ?AllowedURLs:Array<String>) 
     {
         super(MinDisplayTime, AllowedURLs);
         

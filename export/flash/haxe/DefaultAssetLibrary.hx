@@ -96,6 +96,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
 		
@@ -139,6 +155,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/hotsizzling.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/hotsizzling.ogg", __ASSET__assets_sounds_hotsizzling_ogg);
 		type.set ("assets/sounds/hotsizzling.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/keyClickOn1.mp3", __ASSET__assets_sounds_keyclickon1_mp3);
+		type.set ("assets/sounds/keyClickOn1.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn2.mp3", __ASSET__assets_sounds_keyclickon2_mp3);
+		type.set ("assets/sounds/keyClickOn2.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn3.mp3", __ASSET__assets_sounds_keyclickon3_mp3);
+		type.set ("assets/sounds/keyClickOn3.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn4.mp3", __ASSET__assets_sounds_keyclickon4_mp3);
+		type.set ("assets/sounds/keyClickOn4.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease1.mp3", __ASSET__assets_sounds_keyclickrelease1_mp3);
+		type.set ("assets/sounds/keyClickRelease1.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease2.mp3", __ASSET__assets_sounds_keyclickrelease2_mp3);
+		type.set ("assets/sounds/keyClickRelease2.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease3.mp3", __ASSET__assets_sounds_keyclickrelease3_mp3);
+		type.set ("assets/sounds/keyClickRelease3.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease4.mp3", __ASSET__assets_sounds_keyclickrelease4_mp3);
+		type.set ("assets/sounds/keyClickRelease4.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/mouse.mp3", __ASSET__assets_sounds_mouse_mp3);
 		type.set ("assets/sounds/mouse.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/mouse.ogg", __ASSET__assets_sounds_mouse_ogg);
@@ -177,6 +209,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/music/IAMRF.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/hotsizzling.mp3", __ASSET__assets_sounds_hotsizzling_mp4);
 		type.set ("assets/sounds/hotsizzling.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn1.mp3", __ASSET__assets_sounds_keyclickon2);
+		type.set ("assets/sounds/keyClickOn1.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn2.mp3", __ASSET__assets_sounds_keyclickon3);
+		type.set ("assets/sounds/keyClickOn2.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn3.mp3", __ASSET__assets_sounds_keyclickon4);
+		type.set ("assets/sounds/keyClickOn3.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickOn4.mp3", __ASSET__assets_sounds_keyclickon5);
+		type.set ("assets/sounds/keyClickOn4.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease1.mp3", __ASSET__assets_sounds_keyclickrelease2);
+		type.set ("assets/sounds/keyClickRelease1.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease2.mp3", __ASSET__assets_sounds_keyclickrelease3);
+		type.set ("assets/sounds/keyClickRelease2.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease3.mp3", __ASSET__assets_sounds_keyclickrelease4);
+		type.set ("assets/sounds/keyClickRelease3.mp3", AssetType.MUSIC);
+		className.set ("assets/sounds/keyClickRelease4.mp3", __ASSET__assets_sounds_keyclickrelease5);
+		type.set ("assets/sounds/keyClickRelease4.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/mouse.mp3", __ASSET__assets_sounds_mouse_mp4);
 		type.set ("assets/sounds/mouse.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/pc.mp3", __ASSET__assets_sounds_pc_mp4);
@@ -276,6 +324,38 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/keyClickOn1.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn2.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn3.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn4.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease1.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease2.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease3.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease4.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/mouse.mp3";
 		path.set (id, id);
 		
@@ -349,6 +429,38 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/hotsizzling.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn1.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn2.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn3.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickOn4.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease1.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease2.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease3.mp3";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
+		id = "assets/sounds/keyClickRelease4.mp3";
 		path.set (id, id);
 		
 		type.set (id, AssetType.MUSIC);
@@ -473,6 +585,30 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/sounds/hotsizzling.ogg", __ASSET__assets_sounds_hotsizzling_ogg);
 		type.set ("assets/sounds/hotsizzling.ogg", AssetType.SOUND);
 		
+		className.set ("assets/sounds/keyClickOn1.mp3", __ASSET__assets_sounds_keyclickon1_mp3);
+		type.set ("assets/sounds/keyClickOn1.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn2.mp3", __ASSET__assets_sounds_keyclickon2_mp3);
+		type.set ("assets/sounds/keyClickOn2.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn3.mp3", __ASSET__assets_sounds_keyclickon3_mp3);
+		type.set ("assets/sounds/keyClickOn3.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn4.mp3", __ASSET__assets_sounds_keyclickon4_mp3);
+		type.set ("assets/sounds/keyClickOn4.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease1.mp3", __ASSET__assets_sounds_keyclickrelease1_mp3);
+		type.set ("assets/sounds/keyClickRelease1.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease2.mp3", __ASSET__assets_sounds_keyclickrelease2_mp3);
+		type.set ("assets/sounds/keyClickRelease2.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease3.mp3", __ASSET__assets_sounds_keyclickrelease3_mp3);
+		type.set ("assets/sounds/keyClickRelease3.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease4.mp3", __ASSET__assets_sounds_keyclickrelease4_mp3);
+		type.set ("assets/sounds/keyClickRelease4.mp3", AssetType.MUSIC);
+		
 		className.set ("assets/sounds/mouse.mp3", __ASSET__assets_sounds_mouse_mp3);
 		type.set ("assets/sounds/mouse.mp3", AssetType.MUSIC);
 		
@@ -529,6 +665,30 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/sounds/hotsizzling.mp3", __ASSET__assets_sounds_hotsizzling_mp4);
 		type.set ("assets/sounds/hotsizzling.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn1.mp3", __ASSET__assets_sounds_keyclickon2);
+		type.set ("assets/sounds/keyClickOn1.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn2.mp3", __ASSET__assets_sounds_keyclickon3);
+		type.set ("assets/sounds/keyClickOn2.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn3.mp3", __ASSET__assets_sounds_keyclickon4);
+		type.set ("assets/sounds/keyClickOn3.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickOn4.mp3", __ASSET__assets_sounds_keyclickon5);
+		type.set ("assets/sounds/keyClickOn4.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease1.mp3", __ASSET__assets_sounds_keyclickrelease2);
+		type.set ("assets/sounds/keyClickRelease1.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease2.mp3", __ASSET__assets_sounds_keyclickrelease3);
+		type.set ("assets/sounds/keyClickRelease2.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease3.mp3", __ASSET__assets_sounds_keyclickrelease4);
+		type.set ("assets/sounds/keyClickRelease3.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/sounds/keyClickRelease4.mp3", __ASSET__assets_sounds_keyclickrelease5);
+		type.set ("assets/sounds/keyClickRelease4.mp3", AssetType.MUSIC);
 		
 		className.set ("assets/sounds/mouse.mp3", __ASSET__assets_sounds_mouse_mp4);
 		type.set ("assets/sounds/mouse.mp3", AssetType.MUSIC);
@@ -1230,6 +1390,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_music_music_goes_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hotsizzling_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hotsizzling_ogg extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon1_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon2_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon3_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon4_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease1_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease2_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease3_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease4_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_mouse_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_mouse_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_pc_mp3 extends flash.media.Sound { }
@@ -1249,6 +1417,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_typing_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_iamrf_mp4 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hotsizzling_mp4 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon2 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon4 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickon5 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease2 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease4 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_keyclickrelease5 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_mouse_mp4 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_pc_mp4 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_shower_mp4 extends flash.media.Sound { }
@@ -1265,6 +1441,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1341,6 +1533,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/music/music-goes-here.txt") #if display private #end class __ASSET__assets_music_music_goes_here_txt extends lime.utils.Bytes {}
 @:file("assets/sounds/hotsizzling.mp3") #if display private #end class __ASSET__assets_sounds_hotsizzling_mp3 extends lime.utils.Bytes {}
 @:file("assets/sounds/hotsizzling.ogg") #if display private #end class __ASSET__assets_sounds_hotsizzling_ogg extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn1.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon1_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn2.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon2_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn3.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon3_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn4.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon4_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease1.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease1_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease2.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease2_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease3.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease3_mp3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease4.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease4_mp3 extends lime.utils.Bytes {}
 @:file("assets/sounds/mouse.mp3") #if display private #end class __ASSET__assets_sounds_mouse_mp3 extends lime.utils.Bytes {}
 @:file("assets/sounds/mouse.ogg") #if display private #end class __ASSET__assets_sounds_mouse_ogg extends lime.utils.Bytes {}
 @:file("assets/sounds/pc.mp3") #if display private #end class __ASSET__assets_sounds_pc_mp3 extends lime.utils.Bytes {}
@@ -1360,6 +1560,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/sounds/typing.ogg") #if display private #end class __ASSET__assets_sounds_typing_ogg extends lime.utils.Bytes {}
 @:file("assets/music/IAMRF.mp3") #if display private #end class __ASSET__assets_music_iamrf_mp4 extends lime.utils.Bytes {}
 @:file("assets/sounds/hotsizzling.mp3") #if display private #end class __ASSET__assets_sounds_hotsizzling_mp4 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn1.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon2 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn2.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn3.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon4 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickOn4.mp3") #if display private #end class __ASSET__assets_sounds_keyclickon5 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease1.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease2 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease2.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease3 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease3.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease4 extends lime.utils.Bytes {}
+@:file("assets/sounds/keyClickRelease4.mp3") #if display private #end class __ASSET__assets_sounds_keyclickrelease5 extends lime.utils.Bytes {}
 @:file("assets/sounds/mouse.mp3") #if display private #end class __ASSET__assets_sounds_mouse_mp4 extends lime.utils.Bytes {}
 @:file("assets/sounds/pc.mp3") #if display private #end class __ASSET__assets_sounds_pc_mp4 extends lime.utils.Bytes {}
 @:file("assets/sounds/shower.mp3") #if display private #end class __ASSET__assets_sounds_shower_mp4 extends lime.utils.Bytes {}
