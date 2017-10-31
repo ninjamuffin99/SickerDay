@@ -2,6 +2,7 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxState;
+import flixel.system.FlxSound;
 import flixel.ui.FlxBar;
 
 /**
@@ -10,16 +11,33 @@ import flixel.ui.FlxBar;
  */
 class GameDevState extends FlxState 
 {
-	private var _progress:Float = 10;
+	private var _progress:Float = 0;
 	private var _progressBar:FlxBar;
 	private var _delayCheck:Bool = false;
 	
+	private var _NGRadio:FlxSound;
+	
 	override public function create():Void 
 	{
+		createRadio();
+		
 		_progressBar = new FlxBar(10, 10, LEFT_TO_RIGHT, 100, 25, this, "_progress", 0, 100, true);
 		add(_progressBar);
 		
 		super.create();
+	}
+	
+	private function createRadio():Void
+	{
+		_NGRadio = new FlxSound();
+		
+		_NGRadio.play();
+		
+		_NGRadio.loadStream("http://radio-stream01.ungrounded.net/easylistening", false, false);
+		_NGRadio.play();
+		_NGRadio.volume = 0;
+		_NGRadio.fadeIn(10, 0, 0.25);
+		
 	}
 	
 	override public function update(elapsed:Float):Void 
