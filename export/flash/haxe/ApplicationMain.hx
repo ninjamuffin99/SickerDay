@@ -351,7 +351,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "61",
+			build: "62",
 			company: "NinjaMuffin",
 			file: "SCJam",
 			fps: 60,
